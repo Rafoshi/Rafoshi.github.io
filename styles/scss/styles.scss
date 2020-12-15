@@ -1,10 +1,11 @@
-@import "./variables/variables", "./resets/resets", "./mixins/mixins", "./partials/header", "./partials/slides", "./partials/cards";
+@import "./variables/variables", "./resets/resets", "./mixins/mixins", "./partials/header", "./partials/slides", "./partials/cards", "./partials/depositions";
 
 body {
     background-color: $black-body;
 }
 
-.menu {
+.menu,
+.depositions {
     display: flex;
     flex-direction: column;
     justify-content: center;

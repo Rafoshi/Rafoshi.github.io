@@ -46,7 +46,7 @@ h1 {
         }
 
         .describe {
-            @include font(1.1rem, $light);
+            @include font(1.4rem, $light);
             color: $red-secondary;
         }
     }

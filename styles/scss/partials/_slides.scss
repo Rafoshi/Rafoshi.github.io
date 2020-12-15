@@ -36,6 +36,10 @@ $slider-height: 35vh;
     position: relative;
     background: #ffcf47;
     border-radius: 2px;
+
+    img {
+        height: 100%;
+    }
 }
 
 .slider.loaded {
