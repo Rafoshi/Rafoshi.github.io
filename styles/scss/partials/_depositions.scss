@@ -30,7 +30,7 @@
         }
 
         .deposition-text {
-            @include font(1.2rem, $light);
+            @include font(1.4rem, $light);
             color: $red-text;
             text-align: center;
             margin: 0 5vw 5vw 5vh;
