@@ -1,7 +1,7 @@
 @import "../variables/variables", "../mixins/mixins";
 
 h1 {
-	@include font(5.5rem, $extra-bold);
+	@include font(4.2rem, $extra-bold);
 	color: $footer-background;
 	margin-top: 35px;
 	margin-bottom: 35px;
@@ -30,7 +30,7 @@ h1 {
 		}
 
 		.bigTitle {
-			@include font(3.6rem, $bold);
+			@include font(3rem, $bold);
 			color: $red-secondary;
 			margin-right: 3%;
 		}

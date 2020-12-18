@@ -45,7 +45,7 @@ header .container {
 header img {
   width: 150px;
   margin-left: 20px;
-  padding: 0.2vh 0;
+  padding: 1vh 0;
 }
 
 header nav ul {
@@ -254,7 +254,7 @@ header nav ul li a:hover {
 }
 
 h1 {
-  font-size: 5.5rem;
+  font-size: 4.2rem;
   font-weight: 800;
   color: #b41a1a;
   margin-top: 35px;
@@ -297,7 +297,7 @@ h1 {
 }
 
 .menu .card .bigTitle {
-  font-size: 3.6rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #952424;
   margin-right: 3%;
@@ -359,7 +359,7 @@ h1 {
 }
 
 .depositions h1 {
-  font-size: 4rem;
+  font-size: 4.2rem;
   font-weight: 800;
   color: #b41a1a;
   margin-top: 10vh;
@@ -401,7 +401,7 @@ h1 {
   font-weight: 300;
   color: #822222;
   text-align: center;
-  margin: 0 5vw 5vw 5vh;
+  margin: 0px 2vw 4vh 2vw;
 }
 
 .about {
@@ -558,9 +558,22 @@ footer .location {
   position: relative;
 }
 
-.dropdown:hover .dropdown-list {
+.close {
+  opacity: 1;
+  visibility: hidden;
+}
+
+.open {
   opacity: 1;
   visibility: visible;
+}
+
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 .dropdown-select {
@@ -591,7 +604,6 @@ footer .location {
   top: 110%;
   left: 0;
   right: 0;
-  visibility: hidden;
   -webkit-transition: opacity 0.2s linear, visibility 0.2s linear;
   transition: opacity 0.2s linear, visibility 0.2s linear;
 }
@@ -616,7 +628,7 @@ footer .location {
 .category .title-category {
   font-size: 3.2rem;
   font-weight: 700;
-  color: #b41a1a;
+  color: #952424;
   margin-bottom: 0;
 }
 
@@ -634,7 +646,7 @@ footer .location {
 .category .cagetory-item .title-item {
   font-size: 2.4rem;
   font-weight: 700;
-  color: #952424;
+  color: #8e1818;
   text-align: center;
 }
 

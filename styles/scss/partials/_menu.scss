@@ -9,10 +9,25 @@
 	width: 30rem;
 	position: relative;
 }
-.dropdown:hover .dropdown-list {
+
+.close {
+	opacity: 1;
+	visibility: hidden;
+}
+
+.open {
 	opacity: 1;
 	visibility: visible;
 }
+
+.filterDiv {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
 .dropdown-select {
 	padding: 10px;
 	border-radius: 4px;
@@ -32,7 +47,6 @@
 	top: 110%;
 	left: 0;
 	right: 0;
-	visibility: hidden;
 	transition: opacity 0.2s linear, visibility 0.2s linear;
 }
 .dropdown-list__item {
@@ -52,7 +66,7 @@
 
 	.title-category {
 		@include font(3.2rem, $bold);
-		color: $footer-background;
+		color: $red-secondary;
 		margin-bottom: 0;
 	}
 
@@ -66,7 +80,7 @@
 
 		.title-item {
 			@include font(2.4rem, $bold);
-			color: $red-secondary;
+			color: $red-primary;
 			text-align: center;
 		}
 	}
