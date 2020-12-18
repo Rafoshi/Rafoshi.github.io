@@ -189,7 +189,7 @@ header nav ul li a:hover {
   -webkit-transition: all 1s;
   transition: all 1s;
   position: relative;
-  background: #ffcf47;
+  background: #000000;
   border-radius: 2px;
 }
 
@@ -199,24 +199,24 @@ header nav ul li a:hover {
 
 .slider.loaded .slide:nth-child(2),
 .slider.loaded .slide:nth-child(7) {
-  background: #ffcf47;
+  background: #000000;
 }
 
 .slider.loaded .slide:nth-child(1),
 .slider.loaded .slide:nth-child(6) {
-  background: #7adcef;
+  background: #000000;
 }
 
 .slider.loaded .slide:nth-child(3) {
-  background: #3cff96;
+  background: #000000;
 }
 
 .slider.loaded .slide:nth-child(4) {
-  background: #a78df5;
+  background: #000000;
 }
 
 .slider.loaded .slide:nth-child(5) {
-  background: #ff8686;
+  background: #000000;
 }
 
 .control {
@@ -300,7 +300,7 @@ h1 {
   font-size: 3rem;
   font-weight: 700;
   color: #952424;
-  margin-right: 3%;
+  margin-right: 13vw;
 }
 
 .menu .card .unit {
@@ -486,6 +486,15 @@ footer .opening-hour {
 
 footer .location {
   margin-bottom: 8%;
+}
+
+@media (min-width: 751px) {
+  footer {
+    width: auto;
+  }
+  .wrapper {
+    width: auto;
+  }
 }
 
 @-webkit-keyframes shake {

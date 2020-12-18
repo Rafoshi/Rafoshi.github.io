@@ -36,3 +36,12 @@ footer {
 		margin-bottom: 8%;
 	}
 }
+
+@media (min-width: 751px) {
+	footer {
+		width: auto;
+	}
+	.wrapper {
+		width: auto;
+	}
+}
